@@ -1,0 +1,27 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: aqua;
+    aud
+}
+
+h1{
+    background-color: rgb(243, 138, 243);
+    color: black;
+    border: 2px double blue;
+    border-radius: 4px;
+    align-items: center;
+    
+}
+li::first-letter{
+    color:red;
+    font-size:30px;
+}
+h2{
+    background-color: aqua;
+    border:2px double black;
+    border-radius: 12px;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STRATEGY</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        li {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>STRATEGY</h1>
+    <h2>
+        <ul>
+            <li id="1" onclick="elaborate(1)">Consistency</li>
+            <li id="2" onclick="elaborate(2)">Revision</li>
+            <li id="3" onclick="elaborate(3)">Focus</li>
+            <li id="4" onclick="elaborate(4)">Solving PYQ</li>
+            <li id="5" onclick="elaborate(5)">Quality over Quantity</li>
+        </ul>
+    </h2>
+<audio src="https://www.jiosaavn.com/song/jugni-queen/OVAPdBxhU34"></audio>
+    <script>
+        function elaborate(id) {
+            
+            const explanations = {
+                1: "Maintaining same routine every day, <mark>completing task planned</mark> for that day, irrespective of time you started.",
+                2: "Specify your resources and limit them, then <mark>RECALL</mark> them multiple times!!",
+                3: "Whether you completed the allocated task in <mark>5 hr or 1 hr?</mark>",
+                4: "Get idea/overview of what is asked, and the pattern they follow to understand the <mark>examiner’s point</mark> of view.",
+                5: "Decide to give it 1 hr or 5 hr... focus on <mark>content not time</mark>."
+            };
+
+            document.getElementById(id).innerHTML = explanations[id];
+        }
+    </script>
+</body>
+
+</html>
